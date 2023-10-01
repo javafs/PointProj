@@ -25,7 +25,7 @@ public class PointMain {
         p2.translate(2,1);
         System.out.println("p2" + p2 + ": p2's location is shifted by dx=2, dy=1 using command 'p2.translate(2,1)'");
 
-        // shifts p2's location by dx=2, dy=1
+        // shifts p1's location by dx=0, dy=1
         Point.translateS(p1, 0,1);
         System.out.println("p1" + p1 + ": p1's location is shifted by dx=0, dy=1 using command 'Point.translateS(p1, 0,1)'");
 
